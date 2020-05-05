@@ -1,0 +1,59 @@
+
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient( #83abd6, #e6f5fc);
+}
+
+.container {
+  width: 100%;
+  max-width: 430px;
+  padding: 100px 0px;
+  margin: auto;
+
+}
+
+.carrefourLogo{
+  position: fixed;
+  width: 100px;
+  height: auto;
+  top: 4px; left: 4px;
+}
+
+
+p{
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+form p{
+  
+  border-bottom: navy solid 2px;
+  border-right: navy solid 2px;
+  border-radius: 5px;
+  
+}
+
+label{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+img{
+  transition: all 0.5s;
+  height: 200px;
+  width: 200px;
+}
+
+img:hover{
+  transform: scale(1.05);
+}
